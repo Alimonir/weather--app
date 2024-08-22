@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    background-image: url("https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2022/10/CLI371.weather.double_rainbow_cammie_czuchnicki-920x614.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.weather-app {
+    text-align: center;
+    background-color: rgb(245, 241, 241);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#city-input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+#weather-result {
+    margin-top: 20px;
+}
